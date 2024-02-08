@@ -16,7 +16,7 @@ class BookCalculationService
         $this->bookCalculationRepo = $bookCalculationRepo;
     }
 
-    public function get(): array
+    public function get()
     {
         return $this->bookCalculationRepo->get();
     }
