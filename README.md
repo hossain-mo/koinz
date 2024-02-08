@@ -17,3 +17,9 @@
 ## php artisan queue:work --queue=sms
 
 ## php artisan queue:work --queue=calculate
+
+# after all no need for all this the service deployed on http://18.212.213.26
+
+# GET API http://18.212.213.26/api/intervals
+
+# POST API http://18.212.213.26/api/intervals
